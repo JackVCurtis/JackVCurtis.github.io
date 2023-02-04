@@ -1,0 +1,17 @@
+---
+layout: home
+---
+<section class="home">
+    <img class="home__personal-img" src="{{'/assets/images/me.jpg' | absolute_url }}" />
+
+    <div class="home__logo-links">
+        {% include logo-link.html href="https://github.com/JackVCurtis" img_src="/assets/images/github.png" text="Github" %}
+        {% include logo-link.html href="https://linkedin.com/in/jackvcurtis" img_src="/assets/images/linkedin.png" text="LinkedIn" %}
+        {% include logo-link.html href="https://mastodon.jackvcurtis.com/@admin" img_src="/assets/images/mastodon.svg" text="Mastodon" %}
+    </div>
+
+    <address class="home__online-addresses">
+        <p class="home__online-addresses__item">Email: <a href="mailto:jack.v.curtis@gmail.com">jack.v.curtis@gmail.com</a></p>
+        <p class="home__online-addresses__item">Matrix: @jack:jackvcurtis.com</p>
+    </address>
+</section>

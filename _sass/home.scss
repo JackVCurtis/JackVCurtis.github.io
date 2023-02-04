@@ -1,0 +1,34 @@
+@import 'theme';
+@import 'includes/logo-link';
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 720px;
+    padding: 32px 0;
+}
+
+.home__personal-img {
+    border-radius: 100%;
+    margin: 32px 0;
+    max-width: 250px;
+    width: 100%;
+}
+
+.home__logo-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.home__online-addresses {
+    padding: 24px;
+    font-style: normal;
+}
+
+.home__online-addresses__item {
+    padding: 8px;
+}
